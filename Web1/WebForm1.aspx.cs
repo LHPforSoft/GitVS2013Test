@@ -12,6 +12,7 @@ namespace Web1
         protected void Page_Load(object sender, EventArgs e)
         {
             this.Title = "测试VS2013中使用Github";
+            this.form1.Name = "fm1";
         }
     }
 }
