@@ -14,5 +14,10 @@ namespace Web1
             this.Title = "测试VS2013中使用Github";
             this.form1.Name = "fm1";
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            this.Button1.Text = "hello";
+        }
     }
 }
